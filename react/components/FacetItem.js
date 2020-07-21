@@ -35,8 +35,8 @@ const FacetItem = ({
   )
 
   const checkBoxId = reservedVariableNames.includes(facet.value)
-    ? `filterItem--${facet.value}`
-    : facet.value
+    ? `filterItem--${facet.key}-${facet.value}`
+    : `${facet.key}-${facet.value}`
 
   return (
     <div
