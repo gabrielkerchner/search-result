@@ -20,6 +20,8 @@ const AccordionFilterGroup = ({
   open,
   onOpen,
   onFilterCheck,
+  navigationType,
+  initiallyCollapsed,
 }) => {
   const handles = useCssHandles(CSS_HANDLES)
   const filters = useSelectedFilters(facets)
@@ -35,11 +37,15 @@ const AccordionFilterGroup = ({
       show={show}
       onOpen={onOpen}
       quantitySelected={quantitySelected}
+      navigationType={navigationType}
+      initiallyCollapsed={initiallyCollapsed}
     >
-      <div className={classNames(
+      <div
+        className={classNames(
           applyModifiers(handles.accordionFilterOpen, slugifiedFacetTitle),
           className
-        )}>
+        )}
+      >
         <FacetCheckboxList
           onFilterCheck={onFilterCheck}
           facets={filters}

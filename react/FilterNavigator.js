@@ -72,6 +72,8 @@ const FilterNavigator = ({
   maxItemsCategory = 8,
   filtersTitleHtmlTag = 'h5',
   scrollToTop = 'none',
+  fullWidthOnMobile = false,
+  navigationTypeOnMobile = 'page',
 }) => {
   const { isMobile } = useDevice()
   const handles = useCssHandles(CSS_HANDLES)
@@ -142,6 +144,9 @@ const FilterNavigator = ({
               priceRange={priceRange}
               preventRouteChange={preventRouteChange}
               navigateToFacet={navigateToFacet}
+              fullWidth={fullWidthOnMobile}
+              navigationType={navigationTypeOnMobile}
+              initiallyCollapsed={initiallyCollapsed}
             />
           </div>
         </div>
