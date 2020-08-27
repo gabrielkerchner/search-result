@@ -1666,6 +1666,11 @@
     regenerator-runtime "^0.13.1"
     typescript "^3.3.3333"
 
+"@vtex/tsconfig@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@vtex/tsconfig/-/tsconfig-0.5.0.tgz#1314b4cb0c9503ebcae3afd1ec36106dc457cd5c"
+  integrity sha512-WDdawn5pzTj22tVod/MhWU+qCnYu4cCKtmEErwPC9TebJ5OGJTxJnFKskAMJgKjIZmAORDZBq3fsvzCcxC1mgg==
+
 "@wry/context@^0.4.0":
   version "0.4.4"
   resolved "https://registry.yarnpkg.com/@wry/context/-/context-0.4.4.tgz#e50f5fa1d6cfaabf2977d1fda5ae91717f8815f8"

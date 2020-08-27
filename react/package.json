@@ -29,6 +29,7 @@
   "devDependencies": {
     "@testing-library/react-hooks": "^2.0.1",
     "@vtex/test-tools": "^1.2.0",
+    "@vtex/tsconfig": "^0.5.0",
     "apollo-cache-inmemory": "^1.2.2",
     "apollo-client": "^2.5.1",
     "apollo-client-preset": "^1.0.8",

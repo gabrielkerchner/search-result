@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [Unreleased]
 
 ### Added
-- Prop `showFacetSearch` that displays a Search bar to filter facets.
+- Prop `thresholdForFacetSearch` that displays a Search bar to filter facets.
 
 ## [3.69.2] - 2020-08-20
 ### Fixed
