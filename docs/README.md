@@ -279,14 +279,16 @@ Check out the [**Product Summary documentation**](https://vtex.io/docs/component
 
 - **`filter-navigator.v3` block**
 
-| Prop name | Type                      | Description                                                                                       | Default value |
-| --------- | ------------------------- | ------------------------------------------------------------------------------------------------- | ------------- |
-| `layout`  | `Enum` | Whether the Filter Navigator layout should be responsive (`responsive`) or not (`desktop`). You may use `desktop` when the Filter Navigator was configured to be displayed in a [drawer](https://vtex.io/docs/components/content-blocks/vtex.store-drawer@0.9.0). | `responsive`  |
-| `maxItemsDepartment` | `number`                 | Maximum number of departments to be displayed before the See More button is triggered.          | `8`             |
-| `maxItemsCategory`   | `number`                 | Maximum number of category items to be displayed before the See More button is triggered.     | `8`             |
-| `initiallyCollapsed` | `Boolean` | Makes the search filters start out collapsed (`true`) or open (`false`). | `false` |
-| `filtersTitleHtmlTag` | `string` | HTML tag for the filter's title. | `h5` |
-| `scrollToTop` | `enum` | Scrolls the page to the top (`auto` or `smooth`) or not (`none`) when selecting a facet. | `none` |
+| Prop name                         | Type      | Description                                                                                                                                                                                                                                                       | Default value |
+| --------------------------------- | --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
+| `layout`                          | `Enum`    | Whether the Filter Navigator layout should be responsive (`responsive`) or not (`desktop`). You may use `desktop` when the Filter Navigator was configured to be displayed in a [drawer](https://vtex.io/docs/components/content-blocks/vtex.store-drawer@0.9.0). | `responsive`  |
+| `maxItemsDepartment`              | `number`  | Maximum number of departments to be displayed before the See More button is triggered.                                                                                                                                                                            | `8`           |
+| `maxItemsCategory`                | `number`  | Maximum number of category items to be displayed before the See More button is triggered.                                                                                                                                                                         | `8`           |
+| `initiallyCollapsed`              | `Boolean` | Makes the search filters start out collapsed (`true`) or open (`false`).                                                                                                                                                                                          | `false`       |
+| `filtersTitleHtmlTag`             | `string`  | HTML tag for the filter's title.                                                                                                                                                                                                                                  | `h5`          |
+| `scrollToTop`                     | `enum`    | Scrolls the page to the top (`auto` or `smooth`) or not (`none`) when selecting a facet.                                                                                                                                                                          | `none`        |
+| `updateOnFilterSelectionOnMobile` | `boolean` | Whether the search will be updated on facet selection (`true`) or not (`false`) when the user is on mobile. The `preventRouteChange` prop must be enabled in order to make this work.                                                                             | `false`       |
+| `showClearByFilterOnMobile`       | `boolean` | Whether a clear button that clear all options in a specific filter should appear beside the filter's name (`true`) or not (`false`).                                                                                                                              | `false`       |
 
 -  **`order-by` block**
 

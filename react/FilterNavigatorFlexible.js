@@ -16,7 +16,7 @@ const withSearchPageContextProps = Component => ({
   maxItemsCategory,
   filtersTitleHtmlTag,
   updateOnFilterSelectionOnMobile,
-  showClearByFilter,
+  showClearByFilterOnMobile,
 }) => {
   const {
     searchQuery,
@@ -69,7 +69,7 @@ const withSearchPageContextProps = Component => ({
           maxItemsCategory={maxItemsCategory}
           filtersTitleHtmlTag={filtersTitleHtmlTag}
           updateOnFilterSelectionOnMobile={updateOnFilterSelectionOnMobile}
-          showClearByFilter={showClearByFilter}
+          showClearByFilterOnMobile={showClearByFilterOnMobile}
         />
       </FilterNavigatorContext.Provider>
     </div>
