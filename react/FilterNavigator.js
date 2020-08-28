@@ -72,6 +72,8 @@ const FilterNavigator = ({
   maxItemsCategory = 8,
   filtersTitleHtmlTag = 'h5',
   scrollToTop = 'none',
+  updateOnFilterSelectionOnMobile = false,
+  showClearByFilter,
 }) => {
   const { isMobile } = useDevice()
   const handles = useCssHandles(CSS_HANDLES)
@@ -143,6 +145,8 @@ const FilterNavigator = ({
               preventRouteChange={preventRouteChange}
               navigateToFacet={navigateToFacet}
               loading={loading}
+              updateOnFilterSelectionOnMobile={updateOnFilterSelectionOnMobile}
+              showClearByFilter={showClearByFilter}
             />
           </div>
         </div>
